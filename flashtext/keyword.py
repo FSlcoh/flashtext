@@ -655,7 +655,7 @@ class KeywordProcessor(object):
             elif char in current_dict:
                 # we can continue from this char
                 current_dict = current_dict[char]
-            elif len(current_word) > 3 and "_keyword_" in current_dict: 
+            elif "_keyword_" in current_dict: 
                 sequence_found = current_dict[self._keyword]
                 new_sentence += sequence_found
                 current_dict = self.keyword_trie_dict
