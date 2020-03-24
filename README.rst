@@ -25,7 +25,7 @@ FlashText
 
 This module can be used to replace keywords in sentences or extract keywords from sentences. It is based on the `FlashText algorithm <https://arxiv.org/abs/1711.00046>`_.
 
-EDITED: You can now also find keywords (at least 3 characters long) in substrings of words. Needed this to find words in concatenated words which you often find in the German language.
+EDITED: You can now also find keywords in substrings of words. Needed this to find words in concatenated words which you often find in the German language.
 
 
 Installation
